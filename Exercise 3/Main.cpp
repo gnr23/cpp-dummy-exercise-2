@@ -19,8 +19,8 @@ public:
 	point(double in_x, double in_y);
 	void set_x(double in_x);
 	void set_y(double in_y);
-	double get_x() const
-	double get_y() const
+	double get_x() const;
+	double get_y() const;
 		void print();
 private:
 	double x;
@@ -29,8 +29,8 @@ private:
 
 int main()
 {
-	point ob1(1.1,2.2);
-	point ob2(1.0,2.0);
+	point ob1(1.1, 2.2);
+	point ob2(1.0, 2.0);
 	point ob3;
 	cout << "1st point: ";
 	ob1.print();
